@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # author @soulteary
-# date 2021/01/31
+# date 2021/07/05
 
 BASEURL="https://github.com/docker/compose/releases/download"
 FILENAME="docker-compose-`uname -s`-`uname -m`"
-VERSION=1.28.2
+VERSION=1.29.2
 
 if [ -f "$FILENAME" ]; then
     echo "$FILENAME exists.";
